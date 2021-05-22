@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRO-WEBGAMING</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/3ca95fdef9.js"></script>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        .nav-link{
+            color: #fff !important;
+        }
+        .activeItem{
+            border-bottom: 1px solid #fff;
+        }
+        body {
+           background-image: url(https://www.indiewire.com/wp-content/uploads/2020/10/video-game-gift-guide.jpeg?w=780);
+        }
+        h1 {
+           height: 100px; 
+           text-decoration: underline;
+           text-align: center;
+           color: #fff;
+        }
+        .cards{
+            text-align: center;
+        }
+        .card-img-top {
+            width: 485px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-success text-light" style="background-color: black;">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/download.png" width="120" height="120"></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="GameInfo.html">Game Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="LikeorDislike.html">Dislike</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown">Contact Us</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">044 209 333</a>
+                            <a class="dropdown-item" href="#">amer.ukmata04@gmail.com</a>
+                            <a class="dropdown-item" href="https://www.youtube.com/results?search_query=ukmata+gaming">https://www.youtube.com/ukmata-gaming</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".nav-item").on('click',function(){
+                $(".nav-item").removeClass("activeItem");
+                $(this).addClass("activeItem");
+            });
+        });
+    </script>
+    <br>
+    <br>
+    <h1>The Games</h1>
+    <div class="cards">
+    <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="https://th.bing.com/th/id/Rad032a6a9d177b4695cc11e6e9a4381a?rik=h%2b8sOkZw%2bYOzKQ&pid=ImgRaw" >
+          <div style="border-color: #000;" class="card-body">
+            <h5 class="card-title">CS-GO</h5>
+          </div>
+          <div style="border-color: #000;" class="card-footer">
+            <a class="btn btn-success" href="CSGO.html" role="button">GO</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://th.bing.com/th/id/Rfa691e5173308188c412039e0a090794?rik=jOhmRJMw7twOFw&riu=http%3a%2f%2fmanorfarmschool.org%2fwp-content%2fuploads%2f2018%2f04%2fFortnite-logo.jpg&ehk=b6%2b6PjkdaGAXAz74YgbTVermat0ialXq%2fHLSFAutmys%3d&risl=&pid=ImgRaw" >
+          <div style="border-color: #000;" class="card-body">
+            <h5 class="card-title">FORTNITE</h5>
+          </div>
+          <div style="border-color: #000;" class="card-footer">
+            <a class="btn btn-success" href="FORTNITE.html" role="button">GO</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://static1.gamerantimages.com/wordpress/wp-content/uploads/2020/05/call-of-duty-warzone-rooftops-with-logo.jpg" >
+          <div style="border-color: #000;" class="card-body">
+            <h5 class="card-title">COD WARZONE</h5>
+          </div>
+          <div style="border-color: #000;" class="card-footer">
+            <a class="btn btn-success" href="WARZONE.html" role="button">GO</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="https://th.bing.com/th/id/R892a82d1fad97566fa9e5f90d1ab9c1c?rik=1zFO%2fxUE7FXc8g&pid=ImgRaw" >
+          <div style="border-color: #000;" class="card-body">
+            <h5 class="card-title">COD MOBILE</h5>
+          </div>
+          <div style="border-color: #000;" class="card-footer">
+            <a class="btn btn-success" href="MOB.html" role="button">GO</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://th.bing.com/th/id/Rb83d8d3e9beecfac081f4e742d27661c?rik=aQoep9HXW0noeg&pid=ImgRaw" >
+          <div style="border-color: #000;" class="card-body">
+            <h5 class="card-title">PUBG MOBILE</h5>
+          </div>
+          <div style="border-color: #000;" class="card-footer">
+            <a class="btn btn-success" href="PUBG.html" role="button">GO</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://static.truetrophies.com/customimages/015267.jpg" >
+          <div style="border-color: #000;" class="card-body">
+            <h5 class="card-title">ROCKET LAGUE</h5>
+          </div>
+          <div style="border-color: #000;" class="card-footer">
+            <a class="btn btn-success" href="ROCKET.html" role="button">GO</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer style="background-color: #000; overflow: hidden;" >
+        <div class="container">
+            <p class="text-muted p-3">&copy;Copyright; All right reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

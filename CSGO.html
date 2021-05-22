@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRO-WEBGAMING</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/3ca95fdef9.js"></script>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        .nav-link{
+            color: #fff !important;
+        }
+        .activeItem{
+            border-bottom: 1px solid #fff;
+        }
+        body {
+           background-image: url(https://www.indiewire.com/wp-content/uploads/2020/10/video-game-gift-guide.jpeg?w=780);
+        }
+        h1 {
+            width: auto;
+           
+           margin: 40px auto;
+           color: #fff;
+           text-align: center;
+        }
+        p {
+            margin-top: 40px auto;
+            color: #fff;
+           text-align: center;
+           }
+           img {
+            background-image: url(https://vignette1.wikia.nocookie.net/cswikia/images/6/6f/Csgo-de-dust2.png/revision/latest?cb=20140820131233);
+        display: block;
+        margin: 30px auto;   
+           }
+    </style>
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-md navbar-success text-light" style="background-color: black;">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/download.png" width="120" height="120"></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="GameInfo.html">Game Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="LikeorDislike.html">Dislike</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown">Contact Us</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">044 209 333</a>
+                                <a class="dropdown-item" href="#">amer.ukmata04@gmail.com</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/results?search_query=ukmata+gaming">https://www.youtube.com/ukmata-gaming</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".nav-item").on('click',function(){
+                $(".nav-item").removeClass("activeItem");
+                $(this).addClass("activeItem");
+            });
+        });
+    </script>
+          <h1><strong>CS-GO</strong></h1>
+          <p> <strong>Listen to me carefully to become a good player in "CS-GO", <br>
+            then you need to correct the sensitivity of the mouse by making the "sensitivity 2.70" <br>
+            trust me you have to get used to it you will think am i crazy, <br>
+            but you have to change "CROSSHAIR it has to be small and you have to make it stable so that it does not move", <br>
+            and you have to look at any PRO PLAYER that you know</strong> </p> <br>
+          <img src="https://th.bing.com/th/id/Rf7cdb5f80debc0b71db32b7d27e9b85b?rik=Ed%2bl9V4c0q3Kog&riu=http%3a%2f%2fpixelartmaker.com%2fart%2fb8411fe5d7b5ea9.png&ehk=iwJBo5asRyMgZDTFpWn8qNNl6nBLs8ISTKiWeUmhxnQ%3d&risl=&pid=ImgRaw">
+         <footer style="background-color: #000; overflow: hidden;" >
+            <div class="container">
+                <p class="text-muted p-3">&copy;Copyright; All right reserved</p>
+            </div>
+        </footer>
+</body>
+</html>

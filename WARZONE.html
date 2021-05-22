@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRO-WEBGAMING</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/3ca95fdef9.js"></script>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        .nav-link{
+            color: #fff !important;
+        }
+        .activeItem{
+            border-bottom: 1px solid #fff;
+        }
+        body {
+           background-image: url(https://www.indiewire.com/wp-content/uploads/2020/10/video-game-gift-guide.jpeg?w=780);
+        }
+        h1 {
+            width: auto;
+           
+           margin: 40px auto;
+           color: #fff;
+           text-align: center;
+        }
+        p {
+            margin-top: 40px auto;
+            color: #fff;
+           text-align: center;
+           }
+          .hight {
+           height: 400px;
+           display: block;
+        margin: 30px auto; 
+           }
+    </style>
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-md navbar-success text-light" style="background-color: black;">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/download.png" width="120" height="120"></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="GameInfo.html">Game Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="LikeorDislike.html">Dislike</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown">Contact Us</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">044 209 333</a>
+                                <a class="dropdown-item" href="#">amer.ukmata04@gmail.com</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/results?search_query=ukmata+gaming">https://www.youtube.com/ukmata-gaming</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".nav-item").on('click',function(){
+                $(".nav-item").removeClass("activeItem");
+                $(this).addClass("activeItem");
+            });
+        });
+    </script>
+          <h1>WARZONE</h1>
+          <p><strong>Listen, it's not only which weapon is better but you have to play the game "IN QUIET AND REFLECTION", <br>
+               because then you will not have stress in the game, <br>
+               do not stay in one place, move where you want as you want, and change "SETTINGS". </strong></p> 
+          <img class="hight" src="https://i.ytimg.com/vi/2XYZIDiDj54/maxresdefault.jpg">
+         <footer style="background-color: #000; overflow: hidden;" >
+            <div class="container">
+                <p class="text-muted p-3">&copy;Copyright; All right reserved</p>
+            </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRO-WEBGAMING</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/3ca95fdef9.js"></script>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        .nav-link{
+            color: #fff !important;
+        }
+        .activeItem{
+            border-bottom: 1px solid #fff;
+        }
+        body {
+           background-image: url(https://www.indiewire.com/wp-content/uploads/2020/10/video-game-gift-guide.jpeg?w=780);
+        }
+        h1 {
+            width: auto;
+           
+           margin: 40px auto;
+           color: #fff;
+           text-align: center;
+        }
+        p {
+            margin-top: 40px auto;
+            color: #fff;
+           text-align: center;
+        }
+        .Gaming-Info {
+            height: 250px;
+            margin-top: 40px auto;
+            color: #fff;
+           text-align: center;
+        }
+        .Like-Dislike{
+            margin-top: 40px auto;
+            color: #fff;
+           text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-md navbar-success text-light" style="background-color: black;">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/download.png" width="120" height="120"></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="GameInfo.html">Game Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="LikeorDislike.html">Dislike</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown">Contact Us</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">044 209 333</a>
+                                <a class="dropdown-item" href="#">amer.ukmata04@gmail.com</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/results?search_query=ukmata+gaming">https://www.youtube.com/ukmata-gaming</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".nav-item").on('click',function(){
+                $(".nav-item").removeClass("activeItem");
+                $(this).addClass("activeItem");
+            });
+        });
+    </script>
+
+    <h1>WELCOME</h1>
+
+    <p><strong>Our site lists games or game information. <br>
+        A video game or computer game is an electronic game that involves interaction with a user interface or input device – such as a joystick, <br>
+        controller, keyboard, or motion sensing device – to generate visual feedback. <br>
+        This feedback is shown on a video display device, such as a TV set, monitor, touchscreen, or virtual reality headset. <br>
+         Video games are often augmented with audio feedback delivered through speakers or headphones, <br>
+          and sometimes with other types of feedback, including haptic technology. <br> 
+        Video games are defined based on their platform, which include arcade games, <br>
+         console games, and personal computer (PC) games. <br> More recently,
+          the industry has expanded onto mobile gaming through smartphones and tablet computers, <br>  virtual and augmented reality systems,
+         and remote cloud gaming. <br> Video games are classified into a wide range of genres based on their type of gameplay and purpose.</strong></p>
+        <br>
+         <h3 class="Like-Dislike">If you want to know why people <strong>DISLIKE</strong> the games click the button above named <strong>"Dislike"</strong>.</h3>
+         <h3 class="Gaming-Info">If you are going to become a <strong>PRO</strong> player then click the button above which is called <strong>"Game Info"</strong>.</h3>
+         <footer style="background-color: #000; overflow: hidden;" >
+            <div class="container">
+                <p class="text-muted p-3">&copy;Copyright; All right reserved</p>
+            </div>
+        </footer>
+</body>
+</html>
